@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+body {
+       
+       
+	   background-color: #09F;
+	   margin: 0px;
+	   color: #555555;
+	   font-family: arial;
+	   font-size: 13px;        
+        }
+
+
+a {
+
+		text-decoration: none;
+		color:#09F;
+
+}
+
+a:hover {
+		text-decoration: none;
+		background:#09F;
+		color:#FFF;		
+}
+
+
+a:active {
+		text-decoration:none;
+		background-color:#09F;
+		color:#FFF;
+}
+
+p {
+
+		font-family: Verdana;
+		font-size: 11px;
+		line-height: 17px;
+		
+
+}
+
+h2 {
+        font-size: 1.8em;
+		color: #09F;
+		display: block;
+		border-bottom: 1px solid #eeeeee;
+		padding-left: 6px;
+		padding-bottom: 0px;
+		font-family: Trebuchet MS;
+
+	
+}
+
+ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+img {
+    border: none;
+}
+
+tr {
+		font-size: 16px;
+		color:#666;
+}
+
+td {
+	padding-left: 10px;
+	padding-right:10px;
+	vertical-align:text-top;
+}
+
+/* Layout */
+
+#corpo {
+
+		margin: 0px auto;
+		width: 50px;
+		background-color: #fff;
+		
+
+
+}
+
+#topo_banner {
+
+		background-color: #f4f4f4;
+		height: 80px;
+		border: 1px solid #cccccc;
+		background-image: url(images/sombra_bg.gif);
+		background-repeat: repeat-x;
+
+		
+
+}
+
+/* Início da Barra de navegação*/
+
+#barra_nav {
+
+		background-color:#09F;
+		height: 30px;
+		
+}
+
+
+#barra_nav ul {
+
+	margin: 0; 
+	/*padding: 0 0 0 30%; */
+	width: 625px;
+	
+
+
+}
+/* cor da divisão lateral dos links */
+#barra_nav ul li {
+	float: left;
+	list-style: none;		
+	border-right: 1px solid #ccc;
+	height: 30px;
+
+	
+}
+
+/* cor e posição dos links estado normal*/
+#barra_nav ul li a {
+	display: block;
+	text-decoration: none;	
+	padding: 5px 15px;
+	color: #fff;	
+	font-weight: bold;
+	height: 20px;
+}
+
+/* cor e posição dos links estado sobre*/
+#barra_nav ul li a:hover {
+
+  	color: #333;	
+	background-color: #FFF;
+}
+/* cor do link da página atual estado normal*/
+#barra_nav ul li#atual a {
+
+	color: #333;
+	background-color: #fff;	
+}
+/* cor do link da página atual estado sobre*/
+#barra_nav ul li#atual a:hover {
+
+	color: #333;
+	background-color: #fff;
+
+}
+/* Fim da Barra de navegação*/
+
+
+/* Tamanho da área do conteudo */
+#conteudo {
+		background-color:#FFF;
+	    width: 700px;
+		height: 70%;
+		min-height:480px;
+		margin: 0px auto;
+		padding: 10px;
+}
+
+
+/* Other Id's */
+
+
+#topo_banner #logo {
+		width:700px;
+		font-size: 3.5em;
+		letter-spacing: -2px;
+		font-weight: bolder;
+		float: center;
+		padding-left: 35%;
+}
+
+
+
+
+#salto { clear: both;
+ 		border-bottom: 5px solid #eeeeee;
+}
+
+/*Início do rodapé*/
+#rodape {
+		height: 60%;
+		background-color:#09F;
+		padding: 10px 0px 0px 0px;
+		color:#FFF;
+		font-weight: bold;
+		font-size: 12px;
+		margin: 0px;
+		position:static;
+}
+
+#rodape td{
+		color:#FFF;
+		font-size:14px;
+}
+
+#rodape a{
+		text-decoration: none;
+		color: #ffF;
+}
+
+#rodape a:hover{
+		text-decoration: none;
+		color: #333;
+}
+		
+
+/*Fim do rodapé*/
+
